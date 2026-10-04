@@ -1,4 +1,4 @@
-\# MIPS Multi-Cycle Processor
+# MIPS Multi-Cycle Processor
 
 
 
@@ -10,11 +10,11 @@ The project began as a Computer Architecture academic implementation and has bee
 
 
 
-\---
+---
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -30,33 +30,33 @@ The project demonstrates:
 
 
 
-\- MIPS datapath design
+- MIPS datapath design
 
-\- Finite-state-machine based control
+- Finite-state-machine based control
 
-\- Multi-cycle instruction execution
+- Multi-cycle instruction execution
 
-\- ALU control
+- ALU control
 
-\- Register-file operations
+- Register-file operations
 
-\- Shared instruction/data memory
+- Shared instruction/data memory
 
-\- Branch and jump handling
+- Branch and jump handling
 
-\- Immediate arithmetic
+- Immediate arithmetic
 
-\- Signed overflow detection
+- Signed overflow detection
 
-\- Automated Verilog verification
-
-
-
-\---
+- Automated Verilog verification
 
 
 
-\## Architecture
+---
+
+
+
+## Architecture
 
 
 
@@ -64,7 +64,7 @@ The processor consists of two major sections:
 
 
 
-\### Datapath
+### Datapath
 
 
 
@@ -72,31 +72,31 @@ The datapath contains:
 
 
 
-\- 32-bit Program Counter
+- 32-bit Program Counter
 
-\- Instruction Register
+- Instruction Register
 
-\- 32 × 32-bit register file
+- 32 Ã— 32-bit register file
 
-\- A and B operand registers
+- A and B operand registers
 
-\- ALU
+- ALU
 
-\- ALUOut register
+- ALUOut register
 
-\- Memory Data Register
+- Memory Data Register
 
-\- Shared memory
+- Shared memory
 
-\- Sign-extension logic
+- Sign-extension logic
 
-\- Branch and jump target generation
+- Branch and jump target generation
 
-\- Overflow detection
+- Overflow detection
 
 
 
-\### Control Unit
+### Control Unit
 
 
 
@@ -116,19 +116,20 @@ Typical execution flow:
 
 Instruction Fetch
 
-&#x20;       ↓
+        |
 
 Instruction Decode
 
-&#x20;       ↓
+        |
 
 Execute / Address Calculation
 
-&#x20;       ↓
+        |
 
 Memory Access / ALU Completion
 
-&#x20;       ↓
+        |
 
 Writeback
+
 
