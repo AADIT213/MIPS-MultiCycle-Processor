@@ -1,0 +1,16 @@
+# Generated simulation files
+*.vvp
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+
+# Editor / temporary files
+.vscode/
+*.swp
+*.tmp
+*.bak
+
+# OS files
+Thumbs.db
+.DS_Store
